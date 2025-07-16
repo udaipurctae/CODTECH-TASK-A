@@ -2,59 +2,37 @@ NAME: SAHIL LABANA INTERNSHIP @ CODETECH IT SOLUTIONS DOMAIN: ARTIFICIAL INTELLI
 
 Overview of the Projects:
 
-Project 1: 🌐 Project Title:
+Project 1:
+Project Title:
 Weather Forecast Dashboard Using OpenWeatherMap API and Python
 
-📌 Objective:
-To develop a Python script that:
+Objective:
+To build a Python script that fetches weather data from a public API and visualizes it using Matplotlib and Seaborn.
 
-Fetches live weather data from a public API (OpenWeatherMap).
-
-Processes and visualizes the data using Matplotlib and Seaborn.
-
-Presents a clear dashboard showing future weather trends (e.g., temperature over time).
-
-🛠️ Technologies Used:
+Technologies Used:
 Python
+Requests library
+Matplotlib
+Seaborn
+OpenWeatherMap API
 
-Requests – for API calls
-
-Matplotlib – for basic plotting
-
-Seaborn – for styled visualizations
-
-OpenWeatherMap API – for accessing live weather data
-
-🔗 API Used:
+API Used:
 OpenWeatherMap 5-day Forecast API
+Provides weather data in 3-hour intervals for 5 days
+Requires a free API key
 
-Endpoint: http://api.openweathermap.org/data/2.5/forecast
+Features:
+Fetches real-time weather data for any city
+Displays temperature trends over the next 5 days
+Time-series line chart for visualization
+Simple and clear graphical output
 
-Data: Forecast for every 3 hours over 5 days
+Output:
+X-axis shows date and time
+Y-axis shows temperature
+Line chart displays temperature changes over time
 
-Requires: Free API key
-
-🧩 Features:
-Real-time API integration to pull weather data for any city.
-
-Temperature trend visualization over a 5-day period.
-
-Time-series line chart for easy understanding of weather progression.
-
-Clean, readable, and customizable plots.
-
-📈 Output:
-A graphical dashboard displaying:
-
-X-axis: Date and Time
-
-Y-axis: Temperature (in Celsius or Fahrenheit)
-
-Optional: Weather descriptions, icons, humidity, wind speed, etc.
-
-🔍 Potential Extensions:
-Add interactive visualizations using Plotly or Dash.
-
-Include other weather parameters (e.g., humidity, wind).
-
-Deploy the dashboard as a web app.
+Possible Extensions:
+Add humidity, wind speed, or weather conditions
+Create interactive visualizations using Plotly or Dash
+Build and deploy a web-based dashboard
